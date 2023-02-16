@@ -1,0 +1,12 @@
+[package]
+name = "zext"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+[dependencies]
+anyhow = "1.0.69"
+humantime = "2.1.0"
+time = { version = "0.3.18", features = ["parsing"] }
+zsh-module = "0.3.0"
