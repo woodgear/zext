@@ -1,40 +1,46 @@
-2024-03-20 20:48:08,962 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
-2024-03-20 20:48:08,980 INFO o.a.j.JMeter: Loading user properties from: /home/cong/app/alauda-jmeter/apache-jmeter-5.2.1/bin/user.properties
-2024-03-20 20:48:08,981 INFO o.a.j.JMeter: Loading system properties from: /home/cong/app/alauda-jmeter/apache-jmeter-5.2.1/bin/system.properties
-2024-03-20 20:48:08,982 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
-2024-03-20 20:48:08,982 INFO o.a.j.JMeter: Version 5.2.1
-2024-03-20 20:48:08,982 INFO o.a.j.JMeter: java.version=23-ea
-2024-03-20 20:48:08,982 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2024-03-20 20:48:08,983 INFO o.a.j.JMeter: os.name=Linux
-2024-03-20 20:48:08,983 INFO o.a.j.JMeter: os.arch=amd64
-2024-03-20 20:48:08,983 INFO o.a.j.JMeter: os.version=6.7.2-arch1-1
-2024-03-20 20:48:08,983 INFO o.a.j.JMeter: file.encoding=UTF-8
-2024-03-20 20:48:08,983 INFO o.a.j.JMeter: java.awt.headless=null
-2024-03-20 20:48:08,983 INFO o.a.j.JMeter: Max memory     =16701718528
-2024-03-20 20:48:08,983 INFO o.a.j.JMeter: Available Processors =12
-2024-03-20 20:48:08,994 INFO o.a.j.JMeter: Default Locale=English (United States)
-2024-03-20 20:48:08,995 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
-2024-03-20 20:48:08,995 INFO o.a.j.JMeter: JMeterHome=/home/cong/app/alauda-jmeter/apache-jmeter-5.2.1
-2024-03-20 20:48:08,995 INFO o.a.j.JMeter: user.dir  =/home/cong/sm/project/zext
-2024-03-20 20:48:08,995 INFO o.a.j.JMeter: PWD       =/home/cong/sm/project/zext
-2024-03-20 20:48:08,995 INFO o.a.j.JMeter: IP: 192.168.247.36 Name: kaka FullName: kaka
-2024-03-20 20:48:09,240 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
-2024-03-20 20:48:09,275 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
-2024-03-20 20:48:09,275 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
-2024-03-20 20:48:09,346 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2024-03-20 20:48:10,755 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-76c51927c102e22a382af7aa56101ef1-gui
-2024-03-20 20:48:11,043 ERROR o.a.j.JMeter: An error occurred: 
-java.lang.reflect.InaccessibleObjectException: Unable to make field private static java.lang.String sun.awt.X11.XToolkit.awtAppClassName accessible: module java.desktop does not "opens sun.awt.X11" to unnamed module @6ce139a4
-	at java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:388) ~[?:?]
-	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:364) ~[?:?]
-	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:312) ~[?:?]
-	at java.lang.reflect.Field.checkCanSetAccessible(Field.java:183) ~[?:?]
-	at java.lang.reflect.Field.setAccessible(Field.java:177) ~[?:?]
-	at org.apache.jmeter.gui.MainFrame.setWindowTitle(MainFrame.java:906) ~[ApacheJMeter_core.jar:5.2.1]
-	at org.apache.jmeter.gui.MainFrame.init(MainFrame.java:558) ~[ApacheJMeter_core.jar:5.2.1]
-	at org.apache.jmeter.gui.MainFrame.<init>(MainFrame.java:232) ~[ApacheJMeter_core.jar:5.2.1]
-	at org.apache.jmeter.JMeter.startGui(JMeter.java:398) ~[ApacheJMeter_core.jar:5.2.1]
-	at org.apache.jmeter.JMeter.start(JMeter.java:545) [ApacheJMeter_core.jar:5.2.1]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.apache.jmeter.NewDriver.main(NewDriver.java:253) [ApacheJMeter.jar:5.2.1]
+2024-03-20 20:50:13,638 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2024-03-20 20:50:13,665 INFO o.a.j.JMeter: Loading user properties from: /home/cong/app/alauda-jmeter/apache-jmeter-5.2.1/bin/user.properties
+2024-03-20 20:50:13,665 INFO o.a.j.JMeter: Loading system properties from: /home/cong/app/alauda-jmeter/apache-jmeter-5.2.1/bin/system.properties
+2024-03-20 20:50:13,666 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2024-03-20 20:50:13,666 INFO o.a.j.JMeter: Version 5.2.1
+2024-03-20 20:50:13,667 INFO o.a.j.JMeter: java.version=11.0.21
+2024-03-20 20:50:13,667 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-03-20 20:50:13,667 INFO o.a.j.JMeter: os.name=Linux
+2024-03-20 20:50:13,667 INFO o.a.j.JMeter: os.arch=amd64
+2024-03-20 20:50:13,667 INFO o.a.j.JMeter: os.version=6.7.2-arch1-1
+2024-03-20 20:50:13,667 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-03-20 20:50:13,667 INFO o.a.j.JMeter: java.awt.headless=null
+2024-03-20 20:50:13,667 INFO o.a.j.JMeter: Max memory     =16701718528
+2024-03-20 20:50:13,667 INFO o.a.j.JMeter: Available Processors =12
+2024-03-20 20:50:13,675 INFO o.a.j.JMeter: Default Locale=English (United States)
+2024-03-20 20:50:13,675 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2024-03-20 20:50:13,675 INFO o.a.j.JMeter: JMeterHome=/home/cong/app/alauda-jmeter/apache-jmeter-5.2.1
+2024-03-20 20:50:13,675 INFO o.a.j.JMeter: user.dir  =/home/cong/sm/project/zext
+2024-03-20 20:50:13,675 INFO o.a.j.JMeter: PWD       =/home/cong/sm/project/zext
+2024-03-20 20:50:13,676 INFO o.a.j.JMeter: IP: 192.168.247.36 Name: kaka FullName: kaka
+2024-03-20 20:50:14,031 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2024-03-20 20:50:14,069 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2024-03-20 20:50:14,069 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2024-03-20 20:50:14,141 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-03-20 20:50:15,775 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-76c51927c102e22a382af7aa56101ef1-gui
+2024-03-20 20:50:17,008 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-20 20:50:17,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-20 20:50:17,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-20 20:50:17,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-20 20:50:17,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-03-20 20:50:17,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-03-20 20:50:17,189 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-03-20 20:50:17,194 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-03-20 20:50:17,196 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-03-20 20:50:17,439 WARN o.a.j.g.ObjectTableModel: Header count=13 but classes count=11
+2024-03-20 20:50:17,439 WARN o.a.j.g.ObjectTableModel: Header count=13 but writeFunctor count=11
+2024-03-20 20:50:17,857 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, bzm-http2-legacy=2.0, bzm-http2=2.0, jpgc-cmd=2.2, jpgc-functions=2.1, jpgc-casutg=2.10, jpgc-dummy=0.4, jpgc-filterresults=2.2, jpgc-ffw=2.0, jpgc-ggl=2.0, jpgc-sts=2.4, jpgc-fifo=0.2, jpgc-json=2.7, kafkameter=0.2.0, jmeter.backendlistener.kafka=1.0.0, jpgc-mergeresults=2.1, bzm-parallel=0.11, jpgc-perfmon=2.1, jpgc-plugins-manager=1.7, jmeter-prometheus=0.6.0, bzm-random-csv=0.8, jpgc-rotating-listener=0.2, ssh-sampler=1.2.0, jpgc-synthesis=2.2, jpgc-plancheck=2.4, jpgc-tst=2.5, jpgc-udp=0.4, jpgc-csvars=0.1, jmeter-core=5.2.1, jmeter-ftp=5.2.1, jmeter-http=5.2.1, jmeter-jdbc=5.2.1, jmeter-jms=5.2.1, jmeter-junit=5.2.1, jmeter-java=5.2.1, jmeter-ldap=5.2.1, jmeter-mail=5.2.1, jmeter-mongodb=5.2.1, jmeter-native=5.2.1, jmeter-tcp=5.2.1, jmeter-components=5.2.1, jpgc-standard=2.0]
+2024-03-20 20:50:17,860 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [bzm-http2, jpgc-functions, jpgc-sts, bzm-parallel, jpgc-plugins-manager, jpgc-tst]
+2024-03-20 20:50:18,308 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2024-03-20 20:50:18,309 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/cong/app/alauda-jmeter/apache-jmeter-5.2.1/bin/proxyserver.jks
+2024-03-20 20:50:18,456 INFO o.a.j.s.FileServer: Default base='/home/cong/sm/project/zext'
+2024-03-20 20:50:18,739 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-03-20 20:50:18,739 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-03-20 20:50:18,739 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-03-20 20:50:18,739 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-03-20 20:50:18,768 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
