@@ -44,3 +44,8 @@
 2024-03-20 20:50:18,739 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
 2024-03-20 20:50:18,739 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
 2024-03-20 20:50:18,768 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-03-20 20:51:36,461 INFO o.a.j.g.a.Load: Loading file: /home/cong/sm/work/alauda/test/stability/performance/testcases/TestACP2.10/alb-load-port-perf.jmx
+2024-03-20 20:51:36,461 INFO o.a.j.s.FileServer: Set new base='/home/cong/sm/work/alauda/test/stability/performance/testcases/TestACP2.10'
+2024-03-20 20:51:36,461 INFO o.a.j.s.SaveService: Loading file: /home/cong/sm/work/alauda/test/stability/performance/testcases/TestACP2.10/alb-load-port-perf.jmx
+2024-03-20 20:51:37,355 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-03-20 20:51:37,396 INFO o.a.j.s.FileServer: Set new base='/home/cong/sm/work/alauda/test/stability/performance/testcases/TestACP2.10'
